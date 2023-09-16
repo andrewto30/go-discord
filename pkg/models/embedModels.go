@@ -22,6 +22,8 @@ type EmbedComponents struct {
 }
 
 type Footer struct {
+	Text    string `json:"text"`
+	IconURL string `json:"icon_url"`
 }
 
 type Image struct {
