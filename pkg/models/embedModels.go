@@ -27,6 +27,7 @@ type Footer struct {
 }
 
 type Image struct {
+	URL string `json:"url"`
 }
 
 type Thumbnail struct {
