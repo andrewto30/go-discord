@@ -31,6 +31,9 @@ type Thumbnail struct {
 }
 
 type Author struct {
+	Name    string `json:"name"`
+	URL     string `json:"url"`
+	IconURL string `json:"icon_url"`
 }
 
 type Field struct {
